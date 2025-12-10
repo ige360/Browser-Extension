@@ -1,0 +1,31 @@
+.main-container {
+    margin: 50px 130px 0;
+    flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  min-height: 100%;
+}
+
+button:hover {
+    scale: 1.1;
+}
+
+
+@media (min-width: 900px) and (max-width: 1280px) {
+    .main-container {
+        margin: 50px 70px;
+    }
+}
+
+@media (min-width: 743px) and (max-width: 899px) {
+    .main-container {
+        margin: 50px 40px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 742px) {
+    .main-container {
+        margin: 50px 15px;
+    }
+}

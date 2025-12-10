@@ -1,0 +1,39 @@
+.title-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.title-container div button {
+    padding: 10px 17px;
+    margin: 0 3px;
+    border-radius: 27px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.title-container div button:hover {
+    background-color: #e55039;
+}
+
+.title-container h2 {
+    color: #fff;
+    font-size: 2.7rem;
+}
+
+@media (min-width: 300px) and (max-width: 602px) {
+    .title-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .title-container div {
+        margin-top: 10px;
+    }
+    .title-container div button {
+        font-size: 1rem;
+    }
+}
