@@ -23,7 +23,20 @@ const Data = [
         title: "DevLens",
         description: "Quickly inspect page layout and visualize element boundaries"
     },
+    {
+        id: 5,
+        icon: "fa-solid fa-atom",
+        title: "DevLens",
+        description: "Quickly inspect page layout and visualize element boundaries"
+    },
+    {
+        id: 6,
+        icon: "fa-solid fa-atom",
+        title: "DevLens",
+        description: "Quickly inspect page layout and visualize element boundaries"
+    },
 ]
+
 
 
 export default Data;
